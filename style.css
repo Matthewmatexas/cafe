@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background-image: url(Photos/burger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    vertical-align: top;
+    position: fixed;
+    text-align: right;
+}
+ul{
+    width: 75%;
+    height: 80px;
+    text-align: right;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    vertical-align: top;
+    padding-top: 10px;
+    font-family: Poppins;
+}
+li a{
+    vertical-align: top;
+    width: 100px;
+    height: 40px;
+    padding: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: black;
+    transition: 0.4s;
+}
+nav a:hover{
+    background-color: #FFF;
+}
+h2{
+    display: inline-block;
+    width: 270px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    font-family: Akaya Kanadaka;
+    transition: 0.4s;
+}
+h2:hover{
+    background-color: #FFF;
+}
+header h1{
+    color: #FFF;
+    padding-top: 700px;
+    padding-left: 20px;
+    font-family: Akaya Kanadaka;
+}
+h2 a{
+    color: black;
+    text-decoration-line: none;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+main{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+h3{
+    width: 300px;
+    height: 35px;
+    display: inline block;
+    font-size: 25px;
+    text-align: center;
+    font-family: Bitter;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 330px;
+}
+.first p{
+    display: inline-block;
+    width: 370px;
+    height: auto;
+    text-align: justify;
+    line-height: 30px;
+    font-family: Lora;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    vertical-align: top;
+}
+.first img{
+    width: 300px;
+    vertical-align: top;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.first{
+    border-bottom: 1px solid lightgray;
+    border-radius: 20px;
+    height: 700px;
+}
+.second{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-radius: 20px;
+    height: 700px;
+    padding-top: 50px;
+}
+.menu{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+.imagediv{
+    display: inline-block;
+    width: 35%;
+    height: auto;
+}
+.menu, .imagediv{
+    vertical-align: top;
+}
+.menup{
+    display: inline-block;
+    width: 370px;
+    height: auto;
+    font-family: Lora;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    vertical-align: top;
+}
+h4{
+    margin: 20px;
+    font-size: 35px;
+    font-family: Akaya Kanadaka;
+}
+.second h5{
+    font-size: 20px;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    vertical-align: top;
+    font-family: Bitter;
+}
+.pieimage{
+    margin: 0;
+    width: 300px;
+    margin-top: 65px;
+    border-radius: 5px;
+}
+.third{
+    width: 100%;
+    height: 500px;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 20px;
+    border-top: 1px solid lightgray;
+}
+.third div{
+    width: 23%;
+    height: 53%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(2, 238, 0, 0.2);
+    margin: 5px;
+}
+.third h5{
+    margin: 15px;
+    font-size: 20px;
+    font-family: Lora;
+}
+.third p{
+    margin: 10px;
+    font-family: Bitter;
+}
+.third img{
+    width: 230px;
+    height: auto;
+}
+.third a{
+    text-decoration-line: none;
+    color: slategray;
+    transition: 0.5s;
+    padding: 10px;
+}
+.third a:hover{
+    background-color: lightgray;
+    color: #FFF;
+}
+h6{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: Bitter;
+}
+.fourth{
+    font-family: Lora;
+    background: lightgray;
+}
+.container{
+    background: url(Photos/newsletter-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 40px;
+    text-align: center;
+    color: azure;
+}
+.container p{
+    max-width: 40%;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 300;
+}
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box:hover > .text-box, .text-box:focus{
+    width: 20%;
+    padding: 0 10px;
+}
+.email-box i{
+    background: lightgray;
+    width: 40px;
+    line-height: 40px;
+}
+.text-box, .button{
+    border: none;
+    outline: none;
+}
+.text-box{
+    width: 0px;
+    transition: 0.5s;
+}
+.button{
+    background: lightgray;
+    color: #FFF;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button a{
+    color: #FFF;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 50px;
+}
+.contact{
+    width: 15%;
+    height: 50px;
+    padding: 15px;
+    display: block;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: Lora;
+    transition: 0.5s;
+}
+.contact:hover{
+    background-color: beige;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 70px;
+}
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-family: Lora;
+}
